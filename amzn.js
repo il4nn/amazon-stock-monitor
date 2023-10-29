@@ -5,7 +5,7 @@ import { Webhook, MessageBuilder } from 'discord-webhook-node'
 
 const prompt = promptSync();
 
-const hook = new Webhook("https://discord.com/api/webhooks/1147466722635427840/zq5YpkjWzm2-Yz49p18Tb6s-uBMsKz5LC_H9jH1srhYMe0JiHhZL_zOVuetrtnv-wf9V");
+const hook = new Webhook("");
 const embed = new MessageBuilder()
 .setTitle('Amazon Monitor')
 .setColor('#90EE90')
